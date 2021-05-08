@@ -1,0 +1,16 @@
+server:
+  port: 8085
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cdprojects
+    username: dxo
+    password: 11111996@Dxo
+
+  jpa:
+    properties:
+      hibernate:
+          format-sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
